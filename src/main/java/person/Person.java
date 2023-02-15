@@ -1,4 +1,4 @@
-package org.example;
+package person;
 
 import java.util.List;
 /*
@@ -73,10 +73,10 @@ public class Person {
         }
 
         if(female>0){
-            lista[1] = sumMen/female;
+            lista[1] = sumaFemale/female;
         }else{
             lista[1] = 0;
         }
-        return  lista;
+        return lista;
     }
 }
